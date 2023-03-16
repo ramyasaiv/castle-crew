@@ -1051,110 +1051,151 @@ h1{
 
 /* testimonals end */
 /* footer start */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #fcba9c;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.instagram-bg{
+background: #e858c7;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #fcba9c;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #fcba9c;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #fcba9c;
+  padding: 13px 20px;
+  border: 1px solid #fcba9c;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #151414;
+padding: 20px 0;
+margin-left:30%;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
 
-footer{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 60px;
-    color: white;
-    background-color: black;
-}
-.footer > *{
-    flex: 1 100%;
-}
-.footer-left{
-    margin-right: 1.25em;
-    margin-bottom: 2em;
-}
-h4{
-    font-weight: 500;
-    font-size: 50px;
-}
-h2{
-    font-weight: 500;
-    font-size: 40px;
-}
-p{
-    font-weight: 500;
-    font-size: 20px;
-}
-.footer ul{
-    list-style: none;
-    padding-left: 0;
-}
-.footer li{
-    line-height: 2em;
-    font-size: 20px;
-}
-.footer a{
-    text-decoration: none;
-}
-.footer-right{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-flow: row wrap;
-}
-.footer-right > *{
-    float: 1 50%;
-    margin-right: 3.25em;
-}
-.box a{
-    color: #999;
-}
-.footer-bottom{
-    text-align: center;
-    color: #757b7d;
-    padding: 60px;
-    
-
-}
-.footer-bottom p{
-    text-align:center;
-}
-.footer-left p{
-    padding-right: 20%;
-    color: #999;
-}
-
-
-.social-links img{
-    height: 40px;
-    width: 40px;
-    font-size: 20px;
-    line-height: 40px;
-    border: 1px solid #009688;
-    margin: 40px 5px 0;
-    cursor: pointer;
-    transition: .5s;
-}
-.social-links img:hover{
-    background-color:rgb(169, 233, 233);
-    color: #fff;
-    transform: translateY(-7px);
-}
-@media screen and (min-width:600px){
-    .footer-right > *{
-        flex: 1;
-    }
-    .footer-left{
-        flex: 1 0px;
-    }
-    .footer-right{
-        flex: 2 0px;
-    }
-}
-@media (max-width:600px) {
-    .footer{
-        padding: 15px;
-    }
-    margin{
-        font-size: 55px;
-    }
-}
