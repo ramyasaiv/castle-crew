@@ -361,14 +361,7 @@ h6,
     transition-delay: .3s;
     opacity: 1;
 }
-@import 'https://fonts.googleapis.com/css?family=Do+Hyeon';
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .clear-fix:after {
   display: block;
