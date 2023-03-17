@@ -215,48 +215,114 @@
     <!-- services end -->
 
      <!-- contactform start -->
-
-     <!-- <div class="contact">
-         <h1 class="mb-4 justify-content-center">Get A Quote</h1>
-          <form  action="https://sheetdb.io/api/v1/dbf1qy6mjy2ky" method="post" id="sheet1">
-
-            <label for="name">Name:</label><br>
-            input type="text" id="name" name="data[name]" required><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="data[email]" required><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name=" data[message]" required></textarea><br>
-
-            <input type="submit" value="Submit">
-          </form>-->
-                  
-          <section class="contact" id="contact">
-    
-            <div class="row">
-              <div class="image">
-                <img src="contact.jpeg" alt="">
-              </div>
-
-
-              <form action="https://sheetdb.io/api/v1/dbf1qy6mjy2ky" method="post" id="sheet1">
-                <div class="inputBox">
-                  <label for="Enter name"> Enter name</label>
-                  <input type="text" placeholder="name" name=" data[name]"><br>
-                  <label for="Enter email"> Enter email</label>
-                  <input type="email" placeholder="email" name=" data[email]"><br>
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 justify-content-center mb-5">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-light text-center h-100 p-5">
+                    <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                    </div>
+                    <h4 class="mb-3">Phone Number</h4>
+                    <p class="mb-2">+012 345 67890</p>
+                    <p class="mb-4">+012 345 67890</p>
+                    <a class="btn btn-primary px-4" href="tel:+0123456789">Call Now <i class="fa fa-arrow-right ms-2"></i></a>
                 </div>
-                <div class="inputBox">
-                  <label for="Enter number"> Enter number</label>
-                  <input type="number" placeholder="number"name=" data[number]"><br>
-                </div>
-                <label for="Enter message">Enter message</label>
-                <textarea placeholder="message" name=" data[message]" id="" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn" value="send message">
-              </form>
             </div>
-          </section>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="bg-light text-center h-100 p-5">
+                    <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <i class="fa fa-envelope-open fa-2x text-primary"></i>
+                    </div>
+                    <h4 class="mb-3">Email Address</h4>
+                    <p class="mb-2">info@example.com</p>
+                    <p class="mb-4">support@example.com</p>
+                    <a class="btn btn-primary px-4" href="mailto:info@example.com">Email Now <i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="bg-light text-center h-100 p-5">
+                    <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
+                    </div>
+                    <h4 class="mb-3">Office Address</h4>
+                    <p class="mb-2">+012 345 67890</p>
+                    <p class="mb-4">+012 345 67890</p>
+                    <a class="btn btn-primary px-4" href="https://goo.gl/maps/FsznshxgnULBGgkN9" target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
+                <h1 class="display-5 mb-4">If You Have Any Queries, Please Feel Free To Contact Us</h1>
+                <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                <div class="row g-4">
+                    <div class="col-6">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h6>Call Us</h6>
+                                <span>+012 345 67890</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
+                                <i class="fa fa-envelope text-white"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h6>Mail Us</h6>
+                                <span>info@example.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <form action="https://sheetdb.io/api/v1/dbf1qy6mjy2ky" method="post">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" name="data[name]">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" name="data[email]">
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="Number" class="form-control" id="subject" placeholder="Number" name="data[number]">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here"  name="data[message]"id="message" style="height: 150px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+
+
 
           <!-- contactform end -->
 
@@ -560,6 +626,18 @@
         </div>
     </div>
 </footer>
+    <!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="main.js"></script>
+     
 
   <script>
     var form = document.getElementById("sheet1");
